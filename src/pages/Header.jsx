@@ -35,9 +35,9 @@ return (
                                 <a href="#">Links</a>
                                 <ul>
                                     <li><a href="tel:#"><i className="icon-phone"></i>Call: +0123 456 789</a></li>
-                                    <li><a href="wishlist.html"><i className="icon-heart-o"></i>My Wishlist <span>(3)</span></a></li>
-                                    <li><a href="about.html">About Us</a></li>
-                                    <li><a href="contact.html">Contact Us</a></li>
+                                    <li><a href="/wishlist"><i className="icon-heart-o"></i>My Wishlist <span>(3)</span></a></li>
+                                    <li><a href="/about">About Us</a></li>
+                                    <li><a href="/contact-us">Contact Us</a></li>
                                     <li><a href="#signin-modal" data-toggle="modal"><i className="icon-user"></i>Login</a></li>
                                 </ul>
                             </li>
@@ -62,9 +62,9 @@ return (
                             <ul className="menu sf-arrows">
                                 <li className="megamenu-container active"><a href="/">Home</a> </li>
                                 <li> <a href="/shop">Shop</a></li>
-                                <li> <a href="product.html">Product Category</a></li> 
-                                <li> <a href="blog.html">Blog</a></li> 
-                                <li> <a href="blog.html">About Us</a></li> 
+                                <li> <a href="/category">Product Category</a></li> 
+                                <li> <a href="/blogs">Blog</a></li> 
+                                <li> <a href="/about">About Us</a></li> 
                             </ul>
                         </nav>
                     </div>

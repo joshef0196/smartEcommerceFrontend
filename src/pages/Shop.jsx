@@ -8,11 +8,11 @@ export default function Shop() {
         <div className="page-wrapper"> 
             <Header />
             <main className="main">
-                {/* <div className="page-header text-center" style={{ backgroundImage: "url('assets/images/page-header-bg.jpg')" }}>
+                <div className="page-header text-center" style={{ backgroundImage: "url('assets/images/page-header-bg.jpg')" }}>
                     <div className="container">
-                        <h1 className="page-title">Grid 3 Columns<span>Shop</span></h1>
+                        <h1 className="page-title">Shop</h1>
                     </div> 
-                </div> */}
+                </div>
                 
                 <nav aria-label="breadcrumb" className="breadcrumb-nav mb-2">
                     <div className="container">
@@ -36,7 +36,7 @@ export default function Shop() {
 
                                     <div className="toolbox-right">
                                         <div className="toolbox-sort">
-                                            <label for="sortby">Sort by:</label>
+                                            <label htmlFor="sortby">Sort by:</label>
                                             <div className="select-custom">
                                                 <select name="sortby" id="sortby" className="form-control">
                                                     <option value="popularity" selected="selected">Most Popular</option>
@@ -483,7 +483,7 @@ export default function Shop() {
                                 <nav aria-label="Page navigation">
                                     <ul className="pagination justify-content-center">
                                         <li className="page-item disabled">
-                                            <a className="page-link page-link-prev" href="#" aria-label="Previous" tabindex="-1" aria-disabled="true">
+                                            <a className="page-link page-link-prev" href="#" aria-label="Previous" tabIndex="-1" aria-disabled="true">
                                                 <span aria-hidden="true"><i className="icon-long-arrow-left"></i></span>Prev
                                             </a>
                                         </li>
@@ -519,14 +519,14 @@ export default function Shop() {
                                                     <div className="filter-item">
                                                         <div className="custom-control custom-checkbox">
                                                             <input type="checkbox" className="custom-control-input" id="cat-1"/>
-                                                            <label className="custom-control-label" for="cat-1">Dresses</label>
+                                                            <label className="custom-control-label" htmlFor="cat-1">Dresses</label>
                                                         </div>
                                                         <span className="item-count">3</span>
                                                     </div>
                                                     <div className="filter-item">
                                                         <div className="custom-control custom-checkbox">
                                                             <input type="checkbox" className="custom-control-input" id="cat-2"/>
-                                                            <label className="custom-control-label" for="cat-2">T-shirts</label>
+                                                            <label className="custom-control-label" htmlFor="cat-2">T-shirts</label>
                                                         </div>
                                                         <span className="item-count">0</span>
                                                     </div>
@@ -534,7 +534,7 @@ export default function Shop() {
                                                     <div className="filter-item">
                                                         <div className="custom-control custom-checkbox">
                                                             <input type="checkbox" className="custom-control-input" id="cat-3"/>
-                                                            <label className="custom-control-label" for="cat-3">Bags</label>
+                                                            <label className="custom-control-label" htmlFor="cat-3">Bags</label>
                                                         </div>
                                                         <span className="item-count">4</span>
                                                     </div>
@@ -542,7 +542,7 @@ export default function Shop() {
                                                     <div className="filter-item">
                                                         <div className="custom-control custom-checkbox">
                                                             <input type="checkbox" className="custom-control-input" id="cat-4"/>
-                                                            <label className="custom-control-label" for="cat-4">Jackets</label>
+                                                            <label className="custom-control-label" htmlFor="cat-4">Jackets</label>
                                                         </div>
                                                         <span className="item-count">2</span>
                                                     </div>
@@ -550,7 +550,7 @@ export default function Shop() {
                                                     <div className="filter-item">
                                                         <div className="custom-control custom-checkbox">
                                                             <input type="checkbox" className="custom-control-input" id="cat-5"/>
-                                                            <label className="custom-control-label" for="cat-5">Shoes</label>
+                                                            <label className="custom-control-label" htmlFor="cat-5">Shoes</label>
                                                         </div>
                                                         <span className="item-count">2</span>
                                                     </div>
@@ -558,7 +558,7 @@ export default function Shop() {
                                                     <div className="filter-item">
                                                         <div className="custom-control custom-checkbox">
                                                             <input type="checkbox" className="custom-control-input" id="cat-6"/>
-                                                            <label className="custom-control-label" for="cat-6">Jumpers</label>
+                                                            <label className="custom-control-label" htmlFor="cat-6">Jumpers</label>
                                                         </div>
                                                         <span className="item-count">1</span>
                                                     </div>
@@ -566,7 +566,7 @@ export default function Shop() {
                                                     <div className="filter-item">
                                                         <div className="custom-control custom-checkbox">
                                                             <input type="checkbox" className="custom-control-input" id="cat-7"/>
-                                                            <label className="custom-control-label" for="cat-7">Jeans</label>
+                                                            <label className="custom-control-label" htmlFor="cat-7">Jeans</label>
                                                         </div>
                                                         <span className="item-count">1</span>
                                                     </div>
@@ -574,7 +574,7 @@ export default function Shop() {
                                                     <div className="filter-item">
                                                         <div className="custom-control custom-checkbox">
                                                             <input type="checkbox" className="custom-control-input" id="cat-8"/>
-                                                            <label className="custom-control-label" for="cat-8">Sportwear</label>
+                                                            <label className="custom-control-label" htmlFor="cat-8">Sportwear</label>
                                                         </div>
                                                         <span className="item-count">0</span>
                                                     </div>
@@ -596,42 +596,42 @@ export default function Shop() {
                                                     <div className="filter-item">
                                                         <div className="custom-control custom-checkbox">
                                                             <input type="checkbox" className="custom-control-input" id="size-1"/>
-                                                            <label className="custom-control-label" for="size-1">XS</label>
+                                                            <label className="custom-control-label" htmlFor="size-1">XS</label>
                                                         </div>
                                                     </div>
 
                                                     <div className="filter-item">
                                                         <div className="custom-control custom-checkbox">
                                                             <input type="checkbox" className="custom-control-input" id="size-2"/>
-                                                            <label className="custom-control-label" for="size-2">S</label>
+                                                            <label className="custom-control-label" htmlFor="size-2">S</label>
                                                         </div>
                                                     </div>
 
                                                     <div className="filter-item">
                                                         <div className="custom-control custom-checkbox">
                                                             <input type="checkbox" className="custom-control-input" checked id="size-3"/>
-                                                            <label className="custom-control-label" for="size-3">M</label>
+                                                            <label className="custom-control-label" htmlFor="size-3">M</label>
                                                         </div>
                                                     </div>
 
                                                     <div className="filter-item">
                                                         <div className="custom-control custom-checkbox">
                                                             <input type="checkbox" className="custom-control-input" checked id="size-4"/>
-                                                            <label className="custom-control-label" for="size-4">L</label>
+                                                            <label className="custom-control-label" htmlFor="size-4">L</label>
                                                         </div>
                                                     </div>
 
                                                     <div className="filter-item">
                                                         <div className="custom-control custom-checkbox">
                                                             <input type="checkbox" className="custom-control-input" id="size-5"/>
-                                                            <label className="custom-control-label" for="size-5">XL</label>
+                                                            <label className="custom-control-label" htmlFor="size-5">XL</label>
                                                         </div>
                                                     </div>
 
                                                     <div className="filter-item">
                                                         <div className="custom-control custom-checkbox">
                                                             <input type="checkbox" className="custom-control-input" id="size-6"/>
-                                                            <label className="custom-control-label" for="size-6">XXL</label>
+                                                            <label className="custom-control-label" htmlFor="size-6">XXL</label>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -675,49 +675,49 @@ export default function Shop() {
                                                     <div className="filter-item">
                                                         <div className="custom-control custom-checkbox">
                                                             <input type="checkbox" className="custom-control-input" id="brand-1"/>
-                                                            <label className="custom-control-label" for="brand-1">Next</label>
+                                                            <label className="custom-control-label" htmlFor="brand-1">Next</label>
                                                         </div>
                                                     </div>
 
                                                     <div className="filter-item">
                                                         <div className="custom-control custom-checkbox">
                                                             <input type="checkbox" className="custom-control-input" id="brand-2"/>
-                                                            <label className="custom-control-label" for="brand-2">River Island</label>
+                                                            <label className="custom-control-label" htmlFor="brand-2">River Island</label>
                                                         </div>
                                                     </div>
 
                                                     <div className="filter-item">
                                                         <div className="custom-control custom-checkbox">
                                                             <input type="checkbox" className="custom-control-input" id="brand-3"/>
-                                                            <label className="custom-control-label" for="brand-3">Geox</label>
+                                                            <label className="custom-control-label" htmlFor="brand-3">Geox</label>
                                                         </div>
                                                     </div>
 
                                                     <div className="filter-item">
                                                         <div className="custom-control custom-checkbox">
                                                             <input type="checkbox" className="custom-control-input" id="brand-4"/>
-                                                            <label className="custom-control-label" for="brand-4">New Balance</label>
+                                                            <label className="custom-control-label" htmlFor="brand-4">New Balance</label>
                                                         </div>
                                                     </div>
 
                                                     <div className="filter-item">
                                                         <div className="custom-control custom-checkbox">
                                                             <input type="checkbox" className="custom-control-input" id="brand-5"/>
-                                                            <label className="custom-control-label" for="brand-5">UGG</label>
+                                                            <label className="custom-control-label" htmlFor="brand-5">UGG</label>
                                                         </div>
                                                     </div>
 
                                                     <div className="filter-item">
                                                         <div className="custom-control custom-checkbox">
                                                             <input type="checkbox" className="custom-control-input" id="brand-6"/>
-                                                            <label className="custom-control-label" for="brand-6">F&F</label>
+                                                            <label className="custom-control-label" htmlFor="brand-6">F&F</label>
                                                         </div>
                                                     </div>
 
                                                     <div className="filter-item">
                                                         <div className="custom-control custom-checkbox">
                                                             <input type="checkbox" className="custom-control-input" id="brand-7"/>
-                                                            <label className="custom-control-label" for="brand-7">Nike</label>
+                                                            <label className="custom-control-label" htmlFor="brand-7">Nike</label>
                                                         </div>
                                                     </div>
 
