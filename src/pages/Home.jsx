@@ -1,12 +1,9 @@
-import React from 'react' 
-import Header from './Header'
-import Footer from './Footer'
+import React from 'react'  
 
 export default function Home() {
   return (
     // <div>
-        <div className="page-wrapper">
-            <Header />
+        <div className="page-wrapper"> 
             <main className="main">
                 <div className="container-fluid">
                     <div className="row">
@@ -1288,7 +1285,6 @@ export default function Home() {
                 </a>
             </div> 
             </main> 
-            <Footer />
         </div> 
         
     // </div>

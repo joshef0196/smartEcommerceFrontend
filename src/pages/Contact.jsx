@@ -1,11 +1,8 @@
-import React from 'react'
-import Header from './Header'
-import Footer from './Footer'
+import React from 'react' 
 
 export default function Contact() {
   return (
-    <div>
-        <Header />
+    <div> 
         <main className="main">
             <nav aria-label="breadcrumb" className="breadcrumb-nav border-0 mb-0">
                 <div className="container">
@@ -170,8 +167,7 @@ export default function Contact() {
                 </div>{/* End .container */} 
             	<div id="map"></div>{/* End #map */} 
             </div>{/* End .page-content */} 
-        </main>{/* End .main */} 
-        <Footer />
+        </main>{/* End .main */}  
     </div>
   )
 }

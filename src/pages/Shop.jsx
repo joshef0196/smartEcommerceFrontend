@@ -1,12 +1,8 @@
-import React from 'react'
-import Header from './Header'
-import Footer from './Footer'
-
+import React from 'react' 
 export default function Shop() {
   return (
     // <div>
-        <div className="page-wrapper"> 
-            <Header />
+        <div className="page-wrapper">  
             <main className="main">
                 <div className="page-header text-center" style={{ backgroundImage: "url('assets/images/page-header-bg.jpg')" }}>
                     <div className="container">
@@ -750,8 +746,7 @@ export default function Shop() {
                         </div> 
                     </div> 
                 </div> 
-            </main>  
-            <Footer />
+            </main>
         </div>
     // </div>
   )

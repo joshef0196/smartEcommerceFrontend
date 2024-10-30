@@ -1,11 +1,7 @@
-import React from 'react'
-import Header from './Header'
-import Footer from './Footer'
-
+import React from 'react' 
 export default function About() {
   return (
-    <div>
-        <Header />
+    <div> 
         <main className="main">
             <div className="page-header text-center" style={{ backgroundImage: "url('assets/images/page-header-bg.jpg')" }}>
                 <div className="container">
@@ -347,8 +343,7 @@ export default function About() {
                     </div>{/* End .row */}
                 </div>{/* End .container */}
             </div>{/* End .page-content */}
-        </main>{/* End .main */} 
-        <Footer />
+        </main>{/* End .main */}
     </div>
   )
 }

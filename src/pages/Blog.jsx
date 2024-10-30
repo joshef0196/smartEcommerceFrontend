@@ -1,12 +1,9 @@
-import React from 'react'
-import Header from './Header'
-import Footer from './Footer'
+import React from 'react' 
 
 export default function Blog() {
   return (
-    <div>
-      <Header />
-      <main className="main">
+    <div> 
+        <main className="main">
         	<div className="page-header text-center" style={{ backgroundImage: "url('assets/images/page-header-bg.jpg')" }}>
         		<div className="container">
         			<h1 className="page-title">Blog</h1>
@@ -402,8 +399,7 @@ export default function Blog() {
                 	</div>{/* End .row */}
                 </div>{/* End .container */}
             </div>{/* End .page-content */}
-        </main>{/* End .main */}
-      <Footer />
+        </main>{/* End .main */} 
     </div>
   )
 }

@@ -1,11 +1,8 @@
 import React from 'react'
-import Header from './Header'
-import Footer from './Footer'
 
 export default function Wishlist() {
   return (
-    <div>
-        <Header />
+    <div> 
         <main className="main">
         	<div className="page-header text-center" style={{ backgroundImage: "url('assets/images/page-header-bg.jpg')" }}>
         		<div className="container">
@@ -124,8 +121,7 @@ export default function Wishlist() {
 	            	</div>{/*  End .wishlist-share */} 
             	</div>{/*  End .container */} 
             </div>{/*  End .page-content */} 
-        </main>{/*  End .main */} 
-        <Footer />
+        </main>{/*  End .main */}  
     </div>
   )
 }
