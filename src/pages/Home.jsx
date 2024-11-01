@@ -188,7 +188,7 @@ export default function Home() {
                                         </figure>{/* End .product-media */}
 
                                         <div className="product-body">
-                                            <h3 className="product-title"><a href="product.html">Backpack</a></h3>{/* End .product-title */}
+                                            <h3 className="product-title"><a href="/product">Backpack</a></h3>{/* End .product-title */}
                                             <div className="product-price">
                                                 $60.00
                                             </div>{/* End .product-price */}

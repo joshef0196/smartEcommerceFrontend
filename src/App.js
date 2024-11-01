@@ -9,21 +9,12 @@ import Contact from './pages/Contact';
 import Wishlist from './pages/Wishlist';
 import Header from './pages/Header'
 import Footer from './pages/Footer'
+import SingleProduct from './pages/SingleProduct'
 
 function App() {
   return (
-    <BrowserRouter>
-        {/* <Routes>
-                <Route path='/' element={<Home />}> </Route>
-                <Route path='/shop' element={<Shop />}> </Route>
-                <Route path='/category' element={<Category />}> </Route>
-                <Route path='/blogs' element={<Blog />}> </Route>
-                <Route path='/about' element={<About />}> </Route>
-                <Route path='/contact-us' element={<Contact />}> </Route>
-                <Route path='/wishlist' element={<Wishlist />}> </Route>
-            <Footer />
-        </Routes> */}
-        <Header /> {/* This header will now be fixed across all routes */}
+    <BrowserRouter> 
+        <Header />
         <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/shop' element={<Shop />} />
@@ -32,8 +23,9 @@ function App() {
             <Route path='/about' element={<About />} />
             <Route path='/contact-us' element={<Contact />} />
             <Route path='/wishlist' element={<Wishlist />} />
+            <Route path='/product' element={<SingleProduct />} />
         </Routes>
-        <Footer /> {/* This footer will also be fixed across all routes */}
+        <Footer />
     </BrowserRouter>  
   );
 }
